@@ -1,5 +1,5 @@
 ##The Root:        
-The flag will be captured by invoking the "pwn" program using its absolute path.
+The flag will be captured by invoking the "pwn" program using its absolute path.     
 command- /pwn   
 flag- pwn.college{YyIoYg9yIHnfCGZLNvkZFefwjpU.dhzN5QDLxEjN0czW}   
    
@@ -10,12 +10,13 @@ flag- pwn.college{YEG4hqeq32p10yGB2ejl6oJZ97v.dVDN1QDLxEjN0czW}
    
 ##Position thy self:     
 By changing directory(cd /directoryname) to "etc" directory and then invoking the "challenge" directory with "run" program will give us the flag.   
-command- cd /etc   
-         /challenge/run   
+command- cd /etc      
+         /challenge/run      
 flag- pwn.college{IY4koKgjuk_H8NoCUWB9l8XV4eW.dZDN1QDLxEjN0czW}  
      
 ##Position elsewhere:     
-By first invoking "/challenge/run" provides with the location of the directory i.e., /proc/301. By changing directory to /proc/301 and then invoking /chall>command- cd /proc/301.   
+By first invoking "/challenge/run" provides with the location of the directory i.e., /proc/301. By changing directory to /proc/301 and then invoking /challenge/run.      
+command- cd /proc/301.   
          /challenge/run    
 flag- pwn.college{o0ZcdkANsmmGoE_1ljryfl0mHJn.ddDN1QDLxEjN0czW}     
        
