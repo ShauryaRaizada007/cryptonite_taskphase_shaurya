@@ -1,0 +1,29 @@
+                                                         pondering_paths.md                                                                   ##Position elsewhere
+By first invoking "/challenge/run" provides with the location of the directory i.e., /proc/301. By changing directory to /proc/301 and then invoking /chall>command- cd /proc/301
+         /challenge/run
+flag- pwn.college{o0ZcdkANsmmGoE_1ljryfl0mHJn.ddDN1QDLxEjN0czW}
+
+##Position yet elsewhere
+This challenge is similar to the previous challenge. The only difference is that the directory path is longer than the previous one.
+command- cd /usr/share/zoneinfo/posix/Asia
+         /challenge/run
+flag- pwn.college{EDQsfhC72tuADNLNLHIF25BYdpN.dhDN1QDLxEjN0czW}
+
+##Implicit relative paths, from /
+The challenge wants us to invoke using / command, so "cd /" will open the home directory and the invoking "challenge/run" would give us the flag.
+command- cd /
+          challenge/run
+flag- pwn.college{wEAuitzrmW-dvqtahTqWHADNxGE.dlDN1QDLxEjN0czW}
+
+##Explicit relative paths, from /
+This challenge is similar to the previous one. A relative path must used with /. While invoking "/challenge/run", start the command with "." to remain in t>command- cd /
+         ./challenge/run
+flag- pwn.college{wlQyOZk4qJNio3OUr7RsEA50ZUO.dBTN1QDLxEjN0czW}
+
+##Implicit relative path
+The program must be invoked from the challenge directory rather than the home directory like in the previous challenge. After changing directory, just usin>command- cd /challenge
+         ./run
+flag- pwn.college{oIEXz8pid8BXyQoWGFM-fCBW1iq.dFTN1QDLxEjN0czW}
+
+##Home sweet home
+In this challenge we will first create a file having a single character("s") as its name with the "touch" c
